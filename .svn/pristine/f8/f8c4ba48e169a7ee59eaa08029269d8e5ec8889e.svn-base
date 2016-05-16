@@ -1,6 +1,0 @@
-.topfootbg{background-color:#e6e6e6}
-.topfoot{background-color:#373737}
-header{ background-color:#373737}
-nav ul li{list-style-type: none; list-style: none;}
-footer{background-color: #373737; color:#eee;}
-footer a{color: #fff;}

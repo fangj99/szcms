@@ -1,6 +1,6 @@
-.git
+.git/*
 
-.idea
+.idea/*
 
-.svn
-
+.svn/*
+/.svn/*
