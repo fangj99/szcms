@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>插件</title>
+		<link rel="stylesheet" type="text/css" href="trips-ad-plugin.css"/>
+	</head>
+	<body>
+
+		
+		
+		 
+		
+		<script src="jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="trips-ad-plugin.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

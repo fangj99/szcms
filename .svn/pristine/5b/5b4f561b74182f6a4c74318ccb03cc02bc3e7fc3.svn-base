@@ -1,0 +1,1631 @@
+2015-11-20 11:13:09 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "mingrate".' in D:\wamp\vhosts\company\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp\vhosts\company\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('mingrate', Array)
+#1 D:\wamp\vhosts\company\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('mingrate', Array)
+#2 D:\wamp\vhosts\company\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 D:\wamp\vhosts\company\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "mingrate".' in D:\wamp\vhosts\company\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 D:\wamp\vhosts\company\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('mingrate', Array)
+#1 D:\wamp\vhosts\company\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 D:\wamp\vhosts\company\yii(27): yii\base\Application->run()
+#3 {main}
+2015-11-20 11:13:09 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CLASSPATH' => '.;C:\\Program Files (x86)\\Java\\jdk1.8.0_60\\lib'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC-20150810WYJI'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'JAVA_HOME' => 'C:\\Program Files (x86)\\Java\\jdk1.8.0_60'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PC-20150810WYJI'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Python34\\;C:\\Python34\\Scripts;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Java\\jdk1.8.0_60\\bin;D:\\wamp\\bin\\php\\php5.5.12;d:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;D:\\wamp\\bin\\php\\php5.5.12\\;D:\\Program Files\\get'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 48 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '3001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PC-20150810WYJI'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'YII_PATH' => 'D:\\wamp\\vhosts\\company\\'
+    'PHP_SELF' => 'D:\\wamp\\vhosts\\company\\yii'
+    'SCRIPT_NAME' => 'D:\\wamp\\vhosts\\company\\yii'
+    'SCRIPT_FILENAME' => 'D:\\wamp\\vhosts\\company\\yii'
+    'PATH_TRANSLATED' => 'D:\\wamp\\vhosts\\company\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1448014389.7593
+    'REQUEST_TIME' => 1448014389
+    'argv' => [
+        0 => 'D:\\wamp\\vhosts\\company\\yii'
+        1 => 'mingrate'
+    ]
+    'argc' => 2
+]
+2016-01-13 12:21:50 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "-cache".' in D:\wamp\vhosts\menu\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp\vhosts\menu\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('-cache', Array)
+#1 D:\wamp\vhosts\menu\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('-cache', Array)
+#2 D:\wamp\vhosts\menu\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 D:\wamp\vhosts\menu\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "-cache".' in D:\wamp\vhosts\menu\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 D:\wamp\vhosts\menu\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('-cache', Array)
+#1 D:\wamp\vhosts\menu\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 D:\wamp\vhosts\menu\yii(27): yii\base\Application->run()
+#3 {main}
+2016-01-13 12:21:50 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LS--20151124MPT'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LS--20151124MPT'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LS--20151124MPT'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\wamp\\vhosts\\menu\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'D:\\wamp\\vhosts\\menu\\yii'
+    'SCRIPT_NAME' => 'D:\\wamp\\vhosts\\menu\\yii'
+    'SCRIPT_FILENAME' => 'D:\\wamp\\vhosts\\menu\\yii'
+    'PATH_TRANSLATED' => 'D:\\wamp\\vhosts\\menu\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1452684110.8146
+    'REQUEST_TIME' => 1452684110
+    'argv' => [
+        0 => 'D:\\wamp\\vhosts\\menu\\yii'
+        1 => '-cache'
+    ]
+    'argc' => 2
+]
+2016-01-13 12:22:17 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'You should specify cache components names' in D:\wamp\vhosts\menu\vendor\yiisoft\yii2\console\controllers\CacheController.php:70
+Stack trace:
+#0 [internal function]: yii\console\controllers\CacheController->actionFlush()
+#1 D:\wamp\vhosts\menu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 D:\wamp\vhosts\menu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#3 D:\wamp\vhosts\menu\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('flush', Array)
+#4 D:\wamp\vhosts\menu\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('flush', Array)
+#5 D:\wamp\vhosts\menu\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('cache/flush', Array)
+#6 D:\wamp\vhosts\menu\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('cache/flush', Array)
+#7 D:\wamp\vhosts\menu\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 D:\wamp\vhosts\menu\yii(27): yii\base\Application->run()
+#9 {main}
+2016-01-13 12:22:17 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LS--20151124MPT'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LS--20151124MPT'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LS--20151124MPT'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\wamp\\vhosts\\menu\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'D:\\wamp\\vhosts\\menu\\yii'
+    'SCRIPT_NAME' => 'D:\\wamp\\vhosts\\menu\\yii'
+    'SCRIPT_FILENAME' => 'D:\\wamp\\vhosts\\menu\\yii'
+    'PATH_TRANSLATED' => 'D:\\wamp\\vhosts\\menu\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1452684137.325
+    'REQUEST_TIME' => 1452684137
+    'argv' => [
+        0 => 'D:\\wamp\\vhosts\\menu\\yii'
+        1 => 'cache/flush'
+    ]
+    'argc' => 2
+]
+2016-01-13 12:22:27 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "-cache/flush".' in D:\wamp\vhosts\menu\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp\vhosts\menu\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('-cache/flush', Array)
+#1 D:\wamp\vhosts\menu\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('-cache/flush', Array)
+#2 D:\wamp\vhosts\menu\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 D:\wamp\vhosts\menu\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "-cache/flush".' in D:\wamp\vhosts\menu\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 D:\wamp\vhosts\menu\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('-cache/flush', Array)
+#1 D:\wamp\vhosts\menu\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 D:\wamp\vhosts\menu\yii(27): yii\base\Application->run()
+#3 {main}
+2016-01-13 12:22:27 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LS--20151124MPT'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LS--20151124MPT'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LS--20151124MPT'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\wamp\\vhosts\\menu\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'D:\\wamp\\vhosts\\menu\\yii'
+    'SCRIPT_NAME' => 'D:\\wamp\\vhosts\\menu\\yii'
+    'SCRIPT_FILENAME' => 'D:\\wamp\\vhosts\\menu\\yii'
+    'PATH_TRANSLATED' => 'D:\\wamp\\vhosts\\menu\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1452684147.8122
+    'REQUEST_TIME' => 1452684147
+    'argv' => [
+        0 => 'D:\\wamp\\vhosts\\menu\\yii'
+        1 => '-cache/flush'
+    ]
+    'argc' => 2
+]
+2016-01-13 12:22:30 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "-cache/flush".' in D:\wamp\vhosts\menu\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp\vhosts\menu\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('-cache/flush', Array)
+#1 D:\wamp\vhosts\menu\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('-cache/flush', Array)
+#2 D:\wamp\vhosts\menu\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 D:\wamp\vhosts\menu\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "-cache/flush".' in D:\wamp\vhosts\menu\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 D:\wamp\vhosts\menu\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('-cache/flush', Array)
+#1 D:\wamp\vhosts\menu\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 D:\wamp\vhosts\menu\yii(27): yii\base\Application->run()
+#3 {main}
+2016-01-13 12:22:30 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LS--20151124MPT'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LS--20151124MPT'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LS--20151124MPT'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\wamp\\vhosts\\menu\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'D:\\wamp\\vhosts\\menu\\yii'
+    'SCRIPT_NAME' => 'D:\\wamp\\vhosts\\menu\\yii'
+    'SCRIPT_FILENAME' => 'D:\\wamp\\vhosts\\menu\\yii'
+    'PATH_TRANSLATED' => 'D:\\wamp\\vhosts\\menu\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1452684150.9478
+    'REQUEST_TIME' => 1452684150
+    'argv' => [
+        0 => 'D:\\wamp\\vhosts\\menu\\yii'
+        1 => '-cache/flush'
+    ]
+    'argc' => 2
+]
+2016-01-27 02:20:43 [-][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Invalid path alias: @wsl/rbac/migrations' in D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\BaseYii.php:152
+Stack trace:
+#0 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(68): yii\BaseYii::getAlias('@wsl/rbac/migra...')
+#1 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\controllers\MigrateController.php(93): yii\console\controllers\BaseMigrateController->beforeAction(Object(yii\base\InlineAction))
+#2 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Controller.php(149): yii\console\controllers\MigrateController->beforeAction(Object(yii\base\InlineAction))
+#3 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#4 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#5 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('migrate', Array)
+#6 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('migrate', Array)
+#7 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 D:\wamp\vhosts\zhucheme.com\yii(27): yii\base\Application->run()
+#9 {main}
+2016-01-27 02:20:42 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LS--20151124MPT'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LS--20151124MPT'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LS--20151124MPT'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\wamp\\vhosts\\zhucheme.com\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'SCRIPT_NAME' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'SCRIPT_FILENAME' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'PATH_TRANSLATED' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1453857642.9614
+    'REQUEST_TIME' => 1453857642
+    'argv' => [
+        0 => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@wsl/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2016-01-27 02:21:07 [-][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Invalid path alias: @wsl/rbac/migrations' in D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\BaseYii.php:152
+Stack trace:
+#0 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(68): yii\BaseYii::getAlias('@wsl/rbac/migra...')
+#1 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\controllers\MigrateController.php(93): yii\console\controllers\BaseMigrateController->beforeAction(Object(yii\base\InlineAction))
+#2 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Controller.php(149): yii\console\controllers\MigrateController->beforeAction(Object(yii\base\InlineAction))
+#3 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#4 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#5 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('migrate', Array)
+#6 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('migrate', Array)
+#7 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 D:\wamp\vhosts\zhucheme.com\yii(27): yii\base\Application->run()
+#9 {main}
+2016-01-27 02:21:07 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LS--20151124MPT'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LS--20151124MPT'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LS--20151124MPT'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1453857667.3358
+    'REQUEST_TIME' => 1453857667
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@wsl/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2016-01-27 02:21:32 [-][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Invalid path alias: @wsl/rbac/migrations' in D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\BaseYii.php:152
+Stack trace:
+#0 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(68): yii\BaseYii::getAlias('@wsl/rbac/migra...')
+#1 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\controllers\MigrateController.php(93): yii\console\controllers\BaseMigrateController->beforeAction(Object(yii\base\InlineAction))
+#2 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Controller.php(149): yii\console\controllers\MigrateController->beforeAction(Object(yii\base\InlineAction))
+#3 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#4 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#5 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('migrate', Array)
+#6 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('migrate', Array)
+#7 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 D:\wamp\vhosts\zhucheme.com\yii(27): yii\base\Application->run()
+#9 {main}
+2016-01-27 02:21:32 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LS--20151124MPT'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LS--20151124MPT'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LS--20151124MPT'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\wamp\\vhosts\\zhucheme.com\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'SCRIPT_NAME' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'SCRIPT_FILENAME' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'PATH_TRANSLATED' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1453857692.583
+    'REQUEST_TIME' => 1453857692
+    'argv' => [
+        0 => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@wsl/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2016-01-28 16:18:27 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rbac/init".' in D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#1 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#2 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 D:\wamp\vhosts\zhucheme.com\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac/init".' in D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#1 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 D:\wamp\vhosts\zhucheme.com\yii(27): yii\base\Application->run()
+#3 {main}
+2016-01-28 16:18:27 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LS--20151124MPT'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LS--20151124MPT'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LS--20151124MPT'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\wamp\\vhosts\\zhucheme.com\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'SCRIPT_NAME' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'SCRIPT_FILENAME' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'PATH_TRANSLATED' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1453994307.3366
+    'REQUEST_TIME' => 1453994307
+    'argv' => [
+        0 => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-01-28 16:18:38 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rbac/init".' in D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#1 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#2 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 D:\wamp\vhosts\zhucheme.com\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac/init".' in D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#1 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 D:\wamp\vhosts\zhucheme.com\yii(27): yii\base\Application->run()
+#3 {main}
+2016-01-28 16:18:38 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LS--20151124MPT'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LS--20151124MPT'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LS--20151124MPT'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1453994318.0336
+    'REQUEST_TIME' => 1453994318
+    'argv' => [
+        0 => 'yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-01-28 16:22:46 [-][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'console\controllers\RbacController' in file: D:\wamp\vhosts\zhucheme.com/console/controllers/RbacController.php. Namespace missing?' in D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\control...')
+#1 [internal function]: spl_autoload_call('console\\control...')
+#2 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Module.php(563): class_exists('console\\control...')
+#3 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('rbac')
+#4 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('rbac/init')
+#5 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#6 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#7 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 D:\wamp\vhosts\zhucheme.com\yii(27): yii\base\Application->run()
+#9 {main}
+2016-01-28 16:22:46 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LS--20151124MPT'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LS--20151124MPT'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LS--20151124MPT'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1453994566.2896
+    'REQUEST_TIME' => 1453994566
+    'argv' => [
+        0 => 'yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-01-28 16:23:49 [-][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'console\controllers\RbacController' in file: D:\wamp\vhosts\zhucheme.com/console/controllers/RbacController.php. Namespace missing?' in D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\control...')
+#1 [internal function]: spl_autoload_call('console\\control...')
+#2 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Module.php(563): class_exists('console\\control...')
+#3 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('rbac')
+#4 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('rbac/init')
+#5 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#6 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#7 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 D:\wamp\vhosts\zhucheme.com\yii(27): yii\base\Application->run()
+#9 {main}
+2016-01-28 16:23:49 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LS--20151124MPT'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LS--20151124MPT'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LS--20151124MPT'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1453994629.7676
+    'REQUEST_TIME' => 1453994629
+    'argv' => [
+        0 => 'yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-01-28 16:26:49 [-][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'console\controllers\RbacController' in file: D:\wamp\vhosts\zhucheme.com/console/controllers/RbacController.php. Namespace missing?' in D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\control...')
+#1 [internal function]: spl_autoload_call('console\\control...')
+#2 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Module.php(563): class_exists('console\\control...')
+#3 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('rbac')
+#4 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('rbac/init')
+#5 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#6 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#7 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 D:\wamp\vhosts\zhucheme.com\yii(27): yii\base\Application->run()
+#9 {main}
+2016-01-28 16:26:49 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LS--20151124MPT'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LS--20151124MPT'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LS--20151124MPT'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1453994809.4276
+    'REQUEST_TIME' => 1453994809
+    'argv' => [
+        0 => 'yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-01-28 16:26:57 [-][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'console\controllers\RbacController' in file: D:\wamp\vhosts\zhucheme.com/console/controllers/RbacController.php. Namespace missing?' in D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\control...')
+#1 [internal function]: spl_autoload_call('console\\control...')
+#2 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Module.php(563): class_exists('console\\control...')
+#3 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('rbac')
+#4 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('rbac/init')
+#5 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#6 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#7 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 D:\wamp\vhosts\zhucheme.com\yii(27): yii\base\Application->run()
+#9 {main}
+2016-01-28 16:26:57 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LS--20151124MPT'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LS--20151124MPT'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LS--20151124MPT'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\wamp\\vhosts\\zhucheme.com\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'SCRIPT_NAME' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'SCRIPT_FILENAME' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'PATH_TRANSLATED' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1453994817.1846
+    'REQUEST_TIME' => 1453994817
+    'argv' => [
+        0 => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-01-28 16:28:11 [-][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'console\controllers\RbacController' in file: D:\wamp\vhosts\zhucheme.com/console/controllers/RbacController.php. Namespace missing?' in D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\control...')
+#1 [internal function]: spl_autoload_call('console\\control...')
+#2 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Module.php(563): class_exists('console\\control...')
+#3 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('rbac')
+#4 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('rbac/init')
+#5 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#6 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#7 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 D:\wamp\vhosts\zhucheme.com\yii(27): yii\base\Application->run()
+#9 {main}
+2016-01-28 16:28:11 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LS--20151124MPT'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LS--20151124MPT'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LS--20151124MPT'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\wamp\\vhosts\\zhucheme.com\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'SCRIPT_NAME' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'SCRIPT_FILENAME' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'PATH_TRANSLATED' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1453994891.1126
+    'REQUEST_TIME' => 1453994891
+    'argv' => [
+        0 => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-01-31 15:47:03 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+' in D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare(true)
+#6 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\db\mysql\Schema.php(198): yii\db\Command->queryAll()
+#8 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\db\mysql\Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\db\Schema.php(146): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\controllers\MigrateController.php(121): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#11 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(610): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#12 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(102): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#14 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#17 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#18 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('migrate', Array)
+#19 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('migrate', Array)
+#20 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 D:\wamp\vhosts\zhucheme.com\yii(27): yii\base\Application->run()
+#22 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+' in D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare(true)
+#4 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\db\mysql\Schema.php(198): yii\db\Command->queryAll()
+#6 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\db\mysql\Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\db\Schema.php(146): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\controllers\MigrateController.php(121): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#9 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(610): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#10 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(102): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#12 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#15 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#16 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('migrate', Array)
+#17 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('migrate', Array)
+#18 D:\wamp\vhosts\zhucheme.com\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 D:\wamp\vhosts\zhucheme.com\yii(27): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2016-01-31 15:47:02 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LS--20151124MPT'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LS--20151124MPT'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LS--20151124MPT'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\wamp\\vhosts\\zhucheme.com\\'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'PHP_SELF' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'SCRIPT_NAME' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'SCRIPT_FILENAME' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'PATH_TRANSLATED' => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1454251622.7172
+    'REQUEST_TIME' => 1454251622
+    'argv' => [
+        0 => 'D:\\wamp\\vhosts\\zhucheme.com\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@mdm/admin/migrations'
+    ]
+    'argc' => 3
+]
+2016-05-06 08:51:59 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message '鍑芥暟缂哄皯鍙傛暟锛歯ame' in D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2\console\Controller.php:129
+Stack trace:
+#0 D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#2 D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('create', Array)
+#3 D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('create', Array)
+#4 D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('migrate/create', Array)
+#5 D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('migrate/create', Array)
+#6 D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 D:\wamp\vhosts\good\lxm\center\yii(27): yii\base\Application->run()
+#8 {main}
+2016-05-06 08:51:59 [-][-][-][info][application] $_SERVER = [
+    '#envKKPRbc_Cmdilne' => ''
+    '#envTSLOGSHELLEXT3016' => '101349664'
+    '#envTSLOGTSLOG3016' => '42211616'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Plum.Lee\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'SH-BS-PC-033'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Plum.Lee'
+    'LOCALAPPDATA' => 'C:\\Users\\Plum.Lee\\AppData\\Local'
+    'LOGONSERVER' => '\\\\SH-BS-SV-01'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Python34\\;C:\\Python34\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\TortoiseSVN\\bin;d:\\Program Files\\Git\\cmd;D:\\Program Files\\Skype\\Phone\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 61 Stepping 4, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3d04'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'ShellLaunch{A81BA54B-CCFE-4204-8E79-A68C0FDFA5CF}' => 'ShellExt'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Plum.Lee\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Plum.Lee\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BEYONDSUMMITS.COM'
+    'USERDOMAIN' => 'BEYONDSUMMITS'
+    'USERNAME' => 'Plum.Lee'
+    'USERPROFILE' => 'C:\\Users\\Plum.Lee'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\'
+    'PHP_SELF' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'SCRIPT_NAME' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'SCRIPT_FILENAME' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'PATH_TRANSLATED' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1462517519.565
+    'REQUEST_TIME' => 1462517519
+    'argv' => [
+        0 => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+        1 => 'migrate/create'
+    ]
+    'argc' => 2
+]
+2016-05-06 09:01:54 [-][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ',', expecting ']'' in D:\wamp\vhosts\good\lxm\center\console\migrations\m160506_065427_create_news_table.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-06 09:01:34 [-][-][-][info][application] $_SERVER = [
+    '#envKKPRbc_Cmdilne' => ''
+    '#envTSLOGSHELLEXT3016' => '101349664'
+    '#envTSLOGTSLOG3016' => '42211616'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Plum.Lee\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'SH-BS-PC-033'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Plum.Lee'
+    'LOCALAPPDATA' => 'C:\\Users\\Plum.Lee\\AppData\\Local'
+    'LOGONSERVER' => '\\\\SH-BS-SV-01'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Python34\\;C:\\Python34\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\TortoiseSVN\\bin;d:\\Program Files\\Git\\cmd;D:\\Program Files\\Skype\\Phone\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 61 Stepping 4, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3d04'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'ShellLaunch{A81BA54B-CCFE-4204-8E79-A68C0FDFA5CF}' => 'ShellExt'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Plum.Lee\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Plum.Lee\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BEYONDSUMMITS.COM'
+    'USERDOMAIN' => 'BEYONDSUMMITS'
+    'USERNAME' => 'Plum.Lee'
+    'USERPROFILE' => 'C:\\Users\\Plum.Lee'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\'
+    'PHP_SELF' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'SCRIPT_NAME' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'SCRIPT_FILENAME' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'PATH_TRANSLATED' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1462518094.2167
+    'REQUEST_TIME' => 1462518094
+    'argv' => [
+        0 => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2016-05-06 09:03:29 [-][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method yii\db\Schema::primaryKey()' in D:\wamp\vhosts\good\lxm\center\console\migrations\m160506_065427_create_news_table.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-06 09:03:26 [-][-][-][info][application] $_SERVER = [
+    '#envKKPRbc_Cmdilne' => ''
+    '#envTSLOGSHELLEXT3016' => '101349664'
+    '#envTSLOGTSLOG3016' => '42211616'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Plum.Lee\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'SH-BS-PC-033'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Plum.Lee'
+    'LOCALAPPDATA' => 'C:\\Users\\Plum.Lee\\AppData\\Local'
+    'LOGONSERVER' => '\\\\SH-BS-SV-01'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Python34\\;C:\\Python34\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\TortoiseSVN\\bin;d:\\Program Files\\Git\\cmd;D:\\Program Files\\Skype\\Phone\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 61 Stepping 4, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3d04'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'ShellLaunch{A81BA54B-CCFE-4204-8E79-A68C0FDFA5CF}' => 'ShellExt'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Plum.Lee\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Plum.Lee\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BEYONDSUMMITS.COM'
+    'USERDOMAIN' => 'BEYONDSUMMITS'
+    'USERNAME' => 'Plum.Lee'
+    'USERPROFILE' => 'C:\\Users\\Plum.Lee'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\'
+    'PHP_SELF' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'SCRIPT_NAME' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'SCRIPT_FILENAME' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'PATH_TRANSLATED' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1462518206.936
+    'REQUEST_TIME' => 1462518206
+    'argv' => [
+        0 => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2016-05-06 09:04:27 [-][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ',', expecting ']'' in D:\wamp\vhosts\good\lxm\center\console\migrations\m160506_065427_create_news_table.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-06 09:04:24 [-][-][-][info][application] $_SERVER = [
+    '#envKKPRbc_Cmdilne' => ''
+    '#envTSLOGSHELLEXT3016' => '101349664'
+    '#envTSLOGTSLOG3016' => '42211616'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Plum.Lee\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'SH-BS-PC-033'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Plum.Lee'
+    'LOCALAPPDATA' => 'C:\\Users\\Plum.Lee\\AppData\\Local'
+    'LOGONSERVER' => '\\\\SH-BS-SV-01'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Python34\\;C:\\Python34\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\TortoiseSVN\\bin;d:\\Program Files\\Git\\cmd;D:\\Program Files\\Skype\\Phone\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 61 Stepping 4, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3d04'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'ShellLaunch{A81BA54B-CCFE-4204-8E79-A68C0FDFA5CF}' => 'ShellExt'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Plum.Lee\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Plum.Lee\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BEYONDSUMMITS.COM'
+    'USERDOMAIN' => 'BEYONDSUMMITS'
+    'USERNAME' => 'Plum.Lee'
+    'USERPROFILE' => 'C:\\Users\\Plum.Lee'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\'
+    'PHP_SELF' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'SCRIPT_NAME' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'SCRIPT_FILENAME' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'PATH_TRANSLATED' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1462518264.0676
+    'REQUEST_TIME' => 1462518264
+    'argv' => [
+        0 => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2016-05-06 09:05:00 [-][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ',', expecting ']'' in D:\wamp\vhosts\good\lxm\center\console\migrations\m160506_065427_create_news_table.php:14
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-06 09:04:58 [-][-][-][info][application] $_SERVER = [
+    '#envKKPRbc_Cmdilne' => ''
+    '#envTSLOGSHELLEXT3016' => '101349664'
+    '#envTSLOGTSLOG3016' => '42211616'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Plum.Lee\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'SH-BS-PC-033'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Plum.Lee'
+    'LOCALAPPDATA' => 'C:\\Users\\Plum.Lee\\AppData\\Local'
+    'LOGONSERVER' => '\\\\SH-BS-SV-01'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Python34\\;C:\\Python34\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\TortoiseSVN\\bin;d:\\Program Files\\Git\\cmd;D:\\Program Files\\Skype\\Phone\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 61 Stepping 4, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3d04'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'ShellLaunch{A81BA54B-CCFE-4204-8E79-A68C0FDFA5CF}' => 'ShellExt'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Plum.Lee\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Plum.Lee\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BEYONDSUMMITS.COM'
+    'USERDOMAIN' => 'BEYONDSUMMITS'
+    'USERNAME' => 'Plum.Lee'
+    'USERPROFILE' => 'C:\\Users\\Plum.Lee'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\'
+    'PHP_SELF' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'SCRIPT_NAME' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'SCRIPT_FILENAME' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'PATH_TRANSLATED' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1462518298.0344
+    'REQUEST_TIME' => 1462518298
+    'argv' => [
+        0 => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2016-05-06 09:05:11 [-][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method yii\db\Schema::string()' in D:\wamp\vhosts\good\lxm\center\console\migrations\m160506_065427_create_news_table.php:12
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-06 09:05:09 [-][-][-][info][application] $_SERVER = [
+    '#envKKPRbc_Cmdilne' => ''
+    '#envTSLOGSHELLEXT3016' => '101349664'
+    '#envTSLOGTSLOG3016' => '42211616'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Plum.Lee\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'SH-BS-PC-033'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Plum.Lee'
+    'LOCALAPPDATA' => 'C:\\Users\\Plum.Lee\\AppData\\Local'
+    'LOGONSERVER' => '\\\\SH-BS-SV-01'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Python34\\;C:\\Python34\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\TortoiseSVN\\bin;d:\\Program Files\\Git\\cmd;D:\\Program Files\\Skype\\Phone\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 61 Stepping 4, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3d04'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'ShellLaunch{A81BA54B-CCFE-4204-8E79-A68C0FDFA5CF}' => 'ShellExt'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Plum.Lee\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Plum.Lee\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BEYONDSUMMITS.COM'
+    'USERDOMAIN' => 'BEYONDSUMMITS'
+    'USERNAME' => 'Plum.Lee'
+    'USERPROFILE' => 'C:\\Users\\Plum.Lee'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\'
+    'PHP_SELF' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'SCRIPT_NAME' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'SCRIPT_FILENAME' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'PATH_TRANSLATED' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1462518309.6367
+    'REQUEST_TIME' => 1462518309
+    'argv' => [
+        0 => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2016-05-06 09:07:03 [-][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$tableOptions' (T_VARIABLE), expecting function (T_FUNCTION)' in D:\wamp\vhosts\good\lxm\center\console\migrations\m160506_065427_create_news_table.php:8
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-06 09:07:01 [-][-][-][info][application] $_SERVER = [
+    '#envKKPRbc_Cmdilne' => ''
+    '#envTSLOGSHELLEXT3016' => '101349664'
+    '#envTSLOGTSLOG3016' => '42211616'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Plum.Lee\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'SH-BS-PC-033'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Plum.Lee'
+    'LOCALAPPDATA' => 'C:\\Users\\Plum.Lee\\AppData\\Local'
+    'LOGONSERVER' => '\\\\SH-BS-SV-01'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Python34\\;C:\\Python34\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\TortoiseSVN\\bin;d:\\Program Files\\Git\\cmd;D:\\Program Files\\Skype\\Phone\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 61 Stepping 4, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3d04'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'ShellLaunch{A81BA54B-CCFE-4204-8E79-A68C0FDFA5CF}' => 'ShellExt'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Plum.Lee\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Plum.Lee\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BEYONDSUMMITS.COM'
+    'USERDOMAIN' => 'BEYONDSUMMITS'
+    'USERNAME' => 'Plum.Lee'
+    'USERPROFILE' => 'C:\\Users\\Plum.Lee'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\'
+    'PHP_SELF' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'SCRIPT_NAME' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'SCRIPT_FILENAME' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'PATH_TRANSLATED' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1462518421.415
+    'REQUEST_TIME' => 1462518421
+    'argv' => [
+        0 => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2016-05-06 09:07:11 [-][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$tableOptions' (T_VARIABLE), expecting function (T_FUNCTION)' in D:\wamp\vhosts\good\lxm\center\console\migrations\m160506_065427_create_news_table.php:8
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-06 09:07:08 [-][-][-][info][application] $_SERVER = [
+    '#envKKPRbc_Cmdilne' => ''
+    '#envTSLOGSHELLEXT3016' => '101349664'
+    '#envTSLOGTSLOG3016' => '42211616'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Plum.Lee\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'SH-BS-PC-033'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Plum.Lee'
+    'LOCALAPPDATA' => 'C:\\Users\\Plum.Lee\\AppData\\Local'
+    'LOGONSERVER' => '\\\\SH-BS-SV-01'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Python34\\;C:\\Python34\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\TortoiseSVN\\bin;d:\\Program Files\\Git\\cmd;D:\\Program Files\\Skype\\Phone\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 61 Stepping 4, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3d04'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'ShellLaunch{A81BA54B-CCFE-4204-8E79-A68C0FDFA5CF}' => 'ShellExt'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Plum.Lee\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Plum.Lee\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BEYONDSUMMITS.COM'
+    'USERDOMAIN' => 'BEYONDSUMMITS'
+    'USERNAME' => 'Plum.Lee'
+    'USERPROFILE' => 'C:\\Users\\Plum.Lee'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\'
+    'PHP_SELF' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'SCRIPT_NAME' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'SCRIPT_FILENAME' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'PATH_TRANSLATED' => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1462518428.8005
+    'REQUEST_TIME' => 1462518428
+    'argv' => [
+        0 => 'D:\\wamp\\vhosts\\good\\lxm\\center\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]

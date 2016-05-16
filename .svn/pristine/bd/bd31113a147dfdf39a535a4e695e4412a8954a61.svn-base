@@ -1,0 +1,32 @@
+<?php
+
+use yii\helpers\Html;
+use yii\widgets\ListView;
+
+/* @var $this yii\web\View */
+/* @var $searchModel common\models\SiteSearch */
+/* @var $dataProvider yii\data\ActiveDataProvider */
+
+$this->title = Yii::t('app', 'Site Models');
+$this->params['breadcrumbs'][] = $this->title;
+?>
+<div class="site-model-index">
+
+
+    <?php  // echo $this->render('_search', ['model' => $searchModel]); ?>
+
+    <p>
+        <?php  // Html::a(Yii::t('app', 'Create Site Model'), ['create'], ['class' => 'btn btn-success']) ?>
+    </p>
+
+    <?= ListView::widget([
+        'dataProvider' => $dataProvider,
+        'itemOptions' => ['tag'=>'li', 'class' => 'item'],
+        'itemView' => '_index',
+        'layout' => '{items}{pager}',
+//        'itemView' => function ($model, $key, $index, $widget) {
+//            return Html::a(Html::encode($model->sitename), ['view', 'id' => $model->id]);
+//        },
+    ]) ?>
+
+</div>

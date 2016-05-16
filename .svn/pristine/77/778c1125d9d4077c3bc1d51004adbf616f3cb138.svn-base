@@ -1,0 +1,96 @@
+<?php
+
+    use yii\helpers\Html;
+    use yii\widgets\ListView;
+    use yii\helpers\Url;
+
+
+/* @var $this yii\web\View */
+
+    $this->title = $this->params['siteconfig']['sitename'];  
+?>
+<div class="site-index">
+
+
+ <?php  
+// $goods = \common\models\Goods::find()->orderBy(['updated_at'=>SORT_DESC])->limit(11)->all(); 
+ $goods = \common\models\Pro::find()->orderBy(['updated_at'=>SORT_DESC])->limit(8)->all();
+ ?>
+                <?php foreach ($goods as $k => $v): ?>
+                <li><a href="<?= Yii::$app->urlManager->createUrl(['pro/view','id'=>$v->id]); ?>"><?= date("Y",$v->updated_at); ?>年<?= date("m",$v->updated_at); ?>月<?= $v->title; ?></a></li>
+                <?php endforeach; ?>
+    
+    
+    
+    <div class="body-content">
+
+        <div class="row">
+            <div class="col-lg-4">
+                <h2> 分类</h2>
+
+                <p>     
+
+                </p>
+
+
+            </div>
+            <div class="col-lg-4">
+                <h2>产品</h2>
+
+                <p>
+
+
+<?=
+    ListView::widget([
+                    'dataProvider' => $dataProvider,
+                    'layout' => '{items}{pager}',
+                    'itemOptions' => ['class' => 'item'],
+                    'itemView' => function ($model, $key, $index, $widget) {
+                return Html::a(Html::encode($model->title), ['pro/view', 'id' => $model->id]);
+            },
+    ])
+?>
+                </p>
+
+                
+            </div>
+            <div class="col-lg-4">
+                <h2>新闻</h2>
+
+                <p>
+
+<?=
+    ListView::widget([
+                    'dataProvider' => $ndataProvider,
+                    'layout' => '{items}{pager}',
+                    'itemOptions' => ['class' => 'item'],
+                    'itemView' => function ($model, $key, $index, $widget) {
+                return Html::a(Html::encode($model->title), ['news/view', 'id' => $model->id]);
+            },
+    ])
+?>
+
+                </p>
+
+                
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class='link'>
+<div class='body-content'>
+
+
+
+    <?php
+    $goods = \common\models\Link::find()->orderBy(['updated_at'=>SORT_DESC])->limit(8)->all();
+    ?>
+    <?php foreach ($goods as $k => $v): ?>
+         <a href="<?= $v->url ?>">
+          <?= $v->title ?></a>
+    <?php endforeach; ?>
+
+ 
+</div>
+</div>

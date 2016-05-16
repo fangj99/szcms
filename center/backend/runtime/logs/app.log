@@ -1,0 +1,426 @@
+2016-05-13 13:58:25 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2/messages/en/yii.php
+    in D:\wamp\vhosts\good\lxm\center\common\models\SocialSearch.php:32
+    in D:\wamp\vhosts\good\lxm\center\common\models\SocialSearch.php:52
+    in D:\wamp\vhosts\good\lxm\center\backend\controllers\SocialController.php:36
+2016-05-13 13:58:25 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'Huiskin' => 'default'
+    '_identity' => '44febd40989f401deaf9c63f59238d7e3e0534007e8b4f6c68e003a0d081f9f6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"P6mfR6Z-t65-MO1GjayxpcRatcY-My-1\",2592000]\";}'
+    '_csrf' => 'bebfedd4079b294ab18bf16521e299a701c16e7fc38fab60f79ddef609950ea9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ySfnlvhtBz38qgf0maAWLda0n7u-6MN9\";}'
+    'PHPSESSID' => '3nehkhu1e1n44al7ov432olbj7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/'
+    '__id' => 1
+    'qr_time_bench' => [
+        'after_encode' => 1463140103.1669
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.trip.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.trip.dev/admin/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'Huiskin=default; _identity=44febd40989f401deaf9c63f59238d7e3e0534007e8b4f6c68e003a0d081f9f6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22P6mfR6Z-t65-MO1GjayxpcRatcY-My-1%22%2C2592000%5D%22%3B%7D; _csrf=bebfedd4079b294ab18bf16521e299a701c16e7fc38fab60f79ddef609950ea9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ySfnlvhtBz38qgf0maAWLda0n7u-6MN9%22%3B%7D; PHPSESSID=3nehkhu1e1n44al7ov432olbj7'
+    'PATH' => 'C:\\Python34\\;C:\\Python34\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\TortoiseSVN\\bin;d:\\Program Files\\Git\\cmd;D:\\Program Files\\Skype\\Phone\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.trip.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.trip.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/vhosts/good/lxm'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/vhosts/good/lxm'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/vhosts/good/lxm/admin/index.php'
+    'REMOTE_PORT' => '59435'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/index.php/social/index'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'PATH_INFO' => '/social/index'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\index'
+    'PHP_SELF' => '/admin/index.php/social/index'
+    'REQUEST_TIME_FLOAT' => 1463140705.016
+    'REQUEST_TIME' => 1463140705
+]
+2016-05-13 13:58:31 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2/messages/en/yii.php
+    in D:\wamp\vhosts\good\lxm\center\common\models\SiteSearch.php:32
+    in D:\wamp\vhosts\good\lxm\center\common\models\SiteSearch.php:52
+    in D:\wamp\vhosts\good\lxm\center\backend\controllers\SitesController.php:52
+2016-05-13 13:58:30 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    'Huiskin' => 'default'
+    '_identity' => '44febd40989f401deaf9c63f59238d7e3e0534007e8b4f6c68e003a0d081f9f6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"P6mfR6Z-t65-MO1GjayxpcRatcY-My-1\",2592000]\";}'
+    'PHPSESSID' => '3nehkhu1e1n44al7ov432olbj7'
+    '_csrf' => '5bf027b10e41edf273478be23117b4ed1e6787e94e1f7dd99da322cf93b24838a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BSBgZZR1sOi0zQIjskIenjiL0JF9U6Zs\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/'
+    '__id' => 1
+    'qr_time_bench' => [
+        'after_encode' => 1463140103.1669
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.trip.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.trip.dev/admin/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'Huiskin=default; _identity=44febd40989f401deaf9c63f59238d7e3e0534007e8b4f6c68e003a0d081f9f6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22P6mfR6Z-t65-MO1GjayxpcRatcY-My-1%22%2C2592000%5D%22%3B%7D; PHPSESSID=3nehkhu1e1n44al7ov432olbj7; _csrf=5bf027b10e41edf273478be23117b4ed1e6787e94e1f7dd99da322cf93b24838a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BSBgZZR1sOi0zQIjskIenjiL0JF9U6Zs%22%3B%7D'
+    'PATH' => 'C:\\Python34\\;C:\\Python34\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\TortoiseSVN\\bin;d:\\Program Files\\Git\\cmd;D:\\Program Files\\Skype\\Phone\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.trip.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.trip.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/vhosts/good/lxm'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/vhosts/good/lxm'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/vhosts/good/lxm/admin/index.php'
+    'REMOTE_PORT' => '59435'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/index.php/sites/index'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'PATH_INFO' => '/sites/index'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\index'
+    'PHP_SELF' => '/admin/index.php/sites/index'
+    'REQUEST_TIME_FLOAT' => 1463140710.875
+    'REQUEST_TIME' => 1463140710
+]
+2016-05-16 04:47:49 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2/messages/en/yii.php
+2016-05-16 04:47:49 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/lib/jquery/1.9.1/jquery.min.js".' in D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/lib/jquer...', Array)
+#1 D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\vhosts\good\lxm\admin\index.php(20): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp\vhosts\good\lxm\admin\index.php(20): yii\base\Application->run()
+#2 {main}
+2016-05-16 04:47:49 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'Huiskin' => 'default'
+    '_csrf' => '307d9d816b017fc0a5a45f2d8b15b0281f6d58dbe270bd50cbf301167bdff8f9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZFaygJpCOObuY8lbUQNHbZM6Ml3vZezE\";}'
+    '_identity' => '44febd40989f401deaf9c63f59238d7e3e0534007e8b4f6c68e003a0d081f9f6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"P6mfR6Z-t65-MO1GjayxpcRatcY-My-1\",2592000]\";}'
+    'PHPSESSID' => 'pv76t1ngu7ng2jeuhfiitm1h83'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.trip.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.trip.dev/admin/welcome.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'Huiskin=default; _csrf=307d9d816b017fc0a5a45f2d8b15b0281f6d58dbe270bd50cbf301167bdff8f9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZFaygJpCOObuY8lbUQNHbZM6Ml3vZezE%22%3B%7D; _identity=44febd40989f401deaf9c63f59238d7e3e0534007e8b4f6c68e003a0d081f9f6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22P6mfR6Z-t65-MO1GjayxpcRatcY-My-1%22%2C2592000%5D%22%3B%7D; PHPSESSID=pv76t1ngu7ng2jeuhfiitm1h83'
+    'PATH' => 'C:\\Python34\\;C:\\Python34\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\TortoiseSVN\\bin;d:\\Program Files\\Git\\cmd;D:\\Program Files\\Skype\\Phone\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.trip.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.trip.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/vhosts/good/lxm'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/vhosts/good/lxm'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/vhosts/good/lxm/admin/index.php'
+    'REMOTE_PORT' => '59832'
+    'REDIRECT_URL' => '/admin/admin/lib/jquery/1.9.1/jquery.min.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/admin/lib/jquery/1.9.1/jquery.min.js'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1463366869.177
+    'REQUEST_TIME' => 1463366869
+]
+2016-05-16 04:47:49 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2/messages/en/yii.php
+2016-05-16 04:47:49 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/js/H-ui.js".' in D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/js/H-ui.j...', Array)
+#1 D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\vhosts\good\lxm\admin\index.php(20): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp\vhosts\good\lxm\admin\index.php(20): yii\base\Application->run()
+#2 {main}
+2016-05-16 04:47:49 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'Huiskin' => 'default'
+    '_csrf' => '307d9d816b017fc0a5a45f2d8b15b0281f6d58dbe270bd50cbf301167bdff8f9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZFaygJpCOObuY8lbUQNHbZM6Ml3vZezE\";}'
+    '_identity' => '44febd40989f401deaf9c63f59238d7e3e0534007e8b4f6c68e003a0d081f9f6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"P6mfR6Z-t65-MO1GjayxpcRatcY-My-1\",2592000]\";}'
+    'PHPSESSID' => 'pv76t1ngu7ng2jeuhfiitm1h83'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.trip.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.trip.dev/admin/welcome.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'Huiskin=default; _csrf=307d9d816b017fc0a5a45f2d8b15b0281f6d58dbe270bd50cbf301167bdff8f9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZFaygJpCOObuY8lbUQNHbZM6Ml3vZezE%22%3B%7D; _identity=44febd40989f401deaf9c63f59238d7e3e0534007e8b4f6c68e003a0d081f9f6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22P6mfR6Z-t65-MO1GjayxpcRatcY-My-1%22%2C2592000%5D%22%3B%7D; PHPSESSID=pv76t1ngu7ng2jeuhfiitm1h83'
+    'PATH' => 'C:\\Python34\\;C:\\Python34\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\TortoiseSVN\\bin;d:\\Program Files\\Git\\cmd;D:\\Program Files\\Skype\\Phone\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.trip.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.trip.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/vhosts/good/lxm'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/vhosts/good/lxm'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/vhosts/good/lxm/admin/index.php'
+    'REMOTE_PORT' => '59833'
+    'REDIRECT_URL' => '/admin/admin/js/H-ui.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/admin/js/H-ui.js'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1463366869.178
+    'REQUEST_TIME' => 1463366869
+]
+2016-05-16 04:47:53 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2/messages/en/yii.php
+    in D:\wamp\vhosts\good\lxm\center\common\models\SiteSearch.php:32
+    in D:\wamp\vhosts\good\lxm\center\common\models\SiteSearch.php:52
+    in D:\wamp\vhosts\good\lxm\center\backend\controllers\SitesController.php:52
+2016-05-16 04:47:53 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    'Huiskin' => 'default'
+    '_csrf' => '307d9d816b017fc0a5a45f2d8b15b0281f6d58dbe270bd50cbf301167bdff8f9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZFaygJpCOObuY8lbUQNHbZM6Ml3vZezE\";}'
+    '_identity' => '44febd40989f401deaf9c63f59238d7e3e0534007e8b4f6c68e003a0d081f9f6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"P6mfR6Z-t65-MO1GjayxpcRatcY-My-1\",2592000]\";}'
+    'PHPSESSID' => 'pv76t1ngu7ng2jeuhfiitm1h83'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'qr_time_bench' => [
+        'after_encode' => 1463366845.3735
+    ]
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.trip.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.trip.dev/admin/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'Huiskin=default; _csrf=307d9d816b017fc0a5a45f2d8b15b0281f6d58dbe270bd50cbf301167bdff8f9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZFaygJpCOObuY8lbUQNHbZM6Ml3vZezE%22%3B%7D; _identity=44febd40989f401deaf9c63f59238d7e3e0534007e8b4f6c68e003a0d081f9f6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22P6mfR6Z-t65-MO1GjayxpcRatcY-My-1%22%2C2592000%5D%22%3B%7D; PHPSESSID=pv76t1ngu7ng2jeuhfiitm1h83'
+    'PATH' => 'C:\\Python34\\;C:\\Python34\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\TortoiseSVN\\bin;d:\\Program Files\\Git\\cmd;D:\\Program Files\\Skype\\Phone\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.trip.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.trip.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/vhosts/good/lxm'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/vhosts/good/lxm'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/vhosts/good/lxm/admin/index.php'
+    'REMOTE_PORT' => '59832'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/index.php/sites/index'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'PATH_INFO' => '/sites/index'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\index'
+    'PHP_SELF' => '/admin/index.php/sites/index'
+    'REQUEST_TIME_FLOAT' => 1463366873.569
+    'REQUEST_TIME' => 1463366873
+]
+2016-05-16 04:47:57 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2/messages/en/yii.php
+    in D:\wamp\vhosts\good\lxm\center\common\models\SiteSearch.php:32
+    in D:\wamp\vhosts\good\lxm\center\common\models\SiteSearch.php:52
+    in D:\wamp\vhosts\good\lxm\center\backend\controllers\SitesController.php:52
+2016-05-16 04:47:57 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    'Huiskin' => 'default'
+    'PHPSESSID' => 'pv76t1ngu7ng2jeuhfiitm1h83'
+    '_identity' => '44febd40989f401deaf9c63f59238d7e3e0534007e8b4f6c68e003a0d081f9f6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"P6mfR6Z-t65-MO1GjayxpcRatcY-My-1\",2592000]\";}'
+    '_csrf' => 'e6f66b49f3d166ed8d36cf81eabb2711ac3d605e7047e248cdfdb5571c7baafda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g7R_MpEMrPvnLbxLqQ1Mgk-dujuqMvfH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'qr_time_bench' => [
+        'after_encode' => 1463366845.3735
+    ]
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.trip.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.trip.dev/admin/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'Huiskin=default; PHPSESSID=pv76t1ngu7ng2jeuhfiitm1h83; _identity=44febd40989f401deaf9c63f59238d7e3e0534007e8b4f6c68e003a0d081f9f6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22P6mfR6Z-t65-MO1GjayxpcRatcY-My-1%22%2C2592000%5D%22%3B%7D; _csrf=e6f66b49f3d166ed8d36cf81eabb2711ac3d605e7047e248cdfdb5571c7baafda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g7R_MpEMrPvnLbxLqQ1Mgk-dujuqMvfH%22%3B%7D'
+    'PATH' => 'C:\\Python34\\;C:\\Python34\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\TortoiseSVN\\bin;d:\\Program Files\\Git\\cmd;D:\\Program Files\\Skype\\Phone\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.trip.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.trip.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/vhosts/good/lxm'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/vhosts/good/lxm'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/vhosts/good/lxm/admin/index.php'
+    'REMOTE_PORT' => '59835'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/index.php/sites/index'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'PATH_INFO' => '/sites/index'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\index'
+    'PHP_SELF' => '/admin/index.php/sites/index'
+    'REQUEST_TIME_FLOAT' => 1463366877.181
+    'REQUEST_TIME' => 1463366877
+]
+2016-05-16 04:48:00 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: D:\wamp\vhosts\good\lxm\center\vendor\yiisoft\yii2/messages/en/yii.php
+    in D:\wamp\vhosts\good\lxm\center\backend\views\sites\_form.php:27
+    in D:\wamp\vhosts\good\lxm\center\backend\views\sites\update.php:19
+    in D:\wamp\vhosts\good\lxm\center\backend\controllers\SitesController.php:105
+2016-05-16 04:48:00 [127.0.0.1][1][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'Huiskin' => 'default'
+    'PHPSESSID' => 'pv76t1ngu7ng2jeuhfiitm1h83'
+    '_csrf' => 'e6f66b49f3d166ed8d36cf81eabb2711ac3d605e7047e248cdfdb5571c7baafda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g7R_MpEMrPvnLbxLqQ1Mgk-dujuqMvfH\";}'
+    '_identity' => '44febd40989f401deaf9c63f59238d7e3e0534007e8b4f6c68e003a0d081f9f6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"P6mfR6Z-t65-MO1GjayxpcRatcY-My-1\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'qr_time_bench' => [
+        'after_encode' => 1463366845.3735
+    ]
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.trip.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.trip.dev/admin/index.php/sites/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'Huiskin=default; PHPSESSID=pv76t1ngu7ng2jeuhfiitm1h83; _csrf=e6f66b49f3d166ed8d36cf81eabb2711ac3d605e7047e248cdfdb5571c7baafda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g7R_MpEMrPvnLbxLqQ1Mgk-dujuqMvfH%22%3B%7D; _identity=44febd40989f401deaf9c63f59238d7e3e0534007e8b4f6c68e003a0d081f9f6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22P6mfR6Z-t65-MO1GjayxpcRatcY-My-1%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Python34\\;C:\\Python34\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\TortoiseSVN\\bin;d:\\Program Files\\Git\\cmd;D:\\Program Files\\Skype\\Phone\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.trip.dev Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.trip.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/vhosts/good/lxm'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/vhosts/good/lxm'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/vhosts/good/lxm/admin/index.php'
+    'REMOTE_PORT' => '59835'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/admin/index.php/sites/update?id=1'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'PATH_INFO' => '/sites/update'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\update'
+    'PHP_SELF' => '/admin/index.php/sites/update'
+    'REQUEST_TIME_FLOAT' => 1463366880.125
+    'REQUEST_TIME' => 1463366880
+]

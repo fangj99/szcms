@@ -1,0 +1,55 @@
+<?php
+
+use yii\helpers\Html;
+use yii\grid\GridView;
+
+/* @var $this yii\web\View */
+/* @var $searchModel backend\models\ConfigsSearch */
+/* @var $dataProvider yii\data\ActiveDataProvider */
+
+$this->title = 'Configs';
+$this->params['breadcrumbs'][] = $this->title;
+?>
+
+<div class="pd-20">
+<div class="configs-index">
+
+    <h1><?= Html::encode($this->title) ?></h1>
+    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
+
+    <p>
+        <?= Html::a('Create Configs', ['create'], ['class' => 'btn btn-success']) ?>
+    </p>
+
+    <?= GridView::widget([
+        'dataProvider' => $dataProvider,
+        'filterModel' => $searchModel,
+        'columns' => [
+            ['class' => 'yii\grid\SerialColumn'],
+
+            'id',
+            'sitename',
+            'description',
+            'keywords',
+            'address',
+            // 'phone',
+            // 'email:email',
+            // 'beianhao',
+            // 'tongji:ntext',
+            // 'created_at',
+            // 'updated_at',
+            // 'n1',
+            // 'n2',
+            // 'n3',
+            // 'n4',
+            // 'n5',
+            // 'n6',
+            // 'n7',
+            // 'n8',
+
+            ['class' => 'yii\grid\ActionColumn'],
+        ],
+    ]); ?>
+
+</div>
+</div>

@@ -1,0 +1,35 @@
+﻿直接用户只能看市场价                                 
+
+销售商登录之后可以看代理价   
+股东登录之后看到的是出厂价
+而且可以自己上传商品并自己标价（3个价格）
+
+销售商   【查看权限】
+股东     【查看权限】【添加和删除权限】
+
+
+
+Yii::$app->user->can('create-branch')
+pricey  出厂价原价
+priced  代理价格
+
+ <?=$config['domain_url']&&$inputValue?Html::img($config['domain_url'].$inputValue):'添加图片'?>
+
+
+ <VirtualHost *:80>   
+    DocumentRoot "D:/wamp/vhosts/zhucheme.com/frontend/web"
+    ServerName    	www.zhucheme.com
+</VirtualHost>
+ <VirtualHost *:80>   
+    DocumentRoot "D:\wamp\vhosts\zhucheme.com\backend\web"
+    ServerName    user.zhucheme.com
+</VirtualHost>
+ <VirtualHost *:80>   
+    DocumentRoot "D:\wamp\vhosts\zhucheme.com\date"
+    ServerName    img.zhucheme.com
+</VirtualHost>
+ <VirtualHost *:80>   
+
+127.0.0.1       img.zhucheme.com
+127.0.0.1       user.zhucheme.com
+127.0.0.1       www.zhucheme.com
