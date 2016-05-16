@@ -19,21 +19,21 @@ $this->registerMetaTag(['name' => 'description', 'content' => $this->params['sit
 
     </div>
 
-    <?php   echo $this->render('_search', ['model' => $searchModel]); ?>
+    <?php echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?php  // Html::a(Yii::t('app', 'Create Site Model'), ['create'], ['class' => 'btn btn-success']) ?>
+        <?php // Html::a(Yii::t('app', 'Create Site Model'), ['create'], ['class' => 'btn btn-success']) ?>
     </p>
     <div class="panel panel-default  panel-body  ">
-    <?= ListView::widget([
-        'dataProvider' => $dataProvider,
-        'options'=>['id'=>'siteslist','tag'=>'ul'],
-        'itemOptions' => ['tag'=>'li', 'class' => 'item col-md-6'],
-        'itemView' => '_index',
-        'layout' => '{items} <div class="help-block"></div>{pager}',
+        <?= ListView::widget([
+            'dataProvider' => $dataProvider,
+            'options' => ['id' => 'siteslist', 'tag' => 'ul'],
+            'itemOptions' => ['tag' => 'li', 'class' => 'item col-md-6'],
+            'itemView' => '_index',
+            'layout' => '{items} <div class="help-block"></div>{pager}',
 
-    ]) ?>
-</div>
+        ]) ?>
+    </div>
 </div>
 <div class="row">
 

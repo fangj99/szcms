@@ -16,9 +16,22 @@ $this->params['breadcrumbs'][] = $this->title;
         'dataProvider' => $dataProvider,
         'itemOptions' => ['class' => 'item'],
         'layout' => '{items}{pager}',
-        'itemView' => function ($model, $key, $index, $widget) {
-            return Html::a(Html::encode($model->NAME), ['view', 'id' => $model->ID]);
-        },
+        'itemView' => 'city_index',
+//        'itemView' => function ($model, $key, $index, $widget) {
+//            return Html::a(Html::encode($model->NAME), ['view', 'id' => $model->ID]);
+//        },
     ]) ?>
+
+
+    <div class="panel panel-default  panel-body  ">
+        <?= ListView::widget([
+            'dataProvider' => $siteProvider ,
+            'options' => ['id' => 'siteslist', 'tag' => 'ul'],
+            'itemOptions' => ['tag' => 'li', 'class' => 'item col-md-6'],
+            'itemView' => 'site_index',
+            'layout' => '{items} <div class="help-block"></div>{pager}',
+
+        ]) ?>
+    </div>
 
 </div>

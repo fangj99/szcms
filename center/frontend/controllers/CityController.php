@@ -5,6 +5,7 @@ namespace frontend\controllers;
 use common\components\Controller;
 use common\models\City;
 use common\models\CitySearch;
+use common\models\SiteModel;
 use Yii;
 use yii\filters\VerbFilter;
 use yii\helpers;
@@ -39,13 +40,16 @@ class CityController extends Controller
             'pagination' => array('pageSize' => 50),
         ] );
 
-
+        $siteProvider =new ActiveDataProvider([
+            'query'=>SiteModel::find()->where(['cityid'=>4]),
+            'pagination' => array('pageSize' => 50),
+        ]);
 //        $searchModel = new CitySearch();
 //        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
-
         return $this->render('index', [
         //    'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
+            'siteProvider' => $siteProvider,
         ]);
     }
 
