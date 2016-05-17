@@ -1,0 +1,33 @@
+git config --global user.name  pear2007 
+git config --global user.email ncplum@qq.com
+ git add  test.java 
+ git commit  -m  "测试111" 
+
+
+
+添加当个类 git add  test.java 
+如果添加整个工程进去，就直接执行git add . 就可以把所有内容添加到git的仓库里面 
+最后执行 
+ git commit  -m  "注释内容" 
+
+git remote add origin https://github.com/pear2007/yii2cmf.git
+git push -u origin master 
+
+https://github.com/pear2007/yii2cmf.git
+
+
+git@github.com:pear2007/test.git
+
+
+生成公共钥
+ssh-keygen -t rsa -C "ncplum@qq.com"
+https://github.com/pear2007/test.git
+
+git remote add origin  https://github.com/pear2007/yii2cmf.git
+git remote add origin  https://github.com/pear2007/trips.git
+
+git push -u origin master 
+
+ https://github.com/pear2007/test.git
+ https://github.com/pear2007/test.git
+ https://github.com/pear2007/test.git
