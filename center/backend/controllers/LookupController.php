@@ -27,7 +27,7 @@ class LookupController extends Controller
                         'allow' => true,
                     ],
                     [
-                        //     'actions' => ['logout', 'index'],
+                        'actions' => ['create','login', 'index','view','logout'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],

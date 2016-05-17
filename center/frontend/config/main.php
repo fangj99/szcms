@@ -7,6 +7,7 @@ $params = array_merge(
         require (__dir__ . '/params-local.php'));
 
 return [
+    'language' => 'en',
     'id' => 'app-frontend',
     'basePath' => dirname(__dir__),
     'bootstrap' => ['log'],

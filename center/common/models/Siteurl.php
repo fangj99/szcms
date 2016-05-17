@@ -71,4 +71,21 @@ class Siteurl extends \yii\db\ActiveRecord
     {
         return new SiteQuery(get_called_class());
     }
+
+
+    /*
+ * 自动添加     添加 时间      更新时间   用户
+ *
+ */
+    public  function   beforeSave($insert) {
+        if(parent::beforeSave($insert))  {
+//            $this->auth_key = Yii::$app->user->identity->username;
+            if($insert)
+                $this->created_at=time();
+            $this->updated_at=time();
+            return  TRUE;                        }
+        else {
+            return  FALSE;
+        }
+    }
 }

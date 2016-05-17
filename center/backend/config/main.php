@@ -7,6 +7,7 @@ $params = array_merge(
 );
 
 return [
+       'language' => 'zh-CN',
     'id' => 'app-backend',
     'defaultRoute' => 'site/login',
     'basePath' => dirname(__DIR__),

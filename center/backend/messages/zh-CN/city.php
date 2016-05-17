@@ -7,7 +7,14 @@
  */
 
 return [
-    'Name' => 'Chinese Name',
-    'Name En' => 'English name',
+
+    'Name' => '城市名称',
+    'Name En' => '英文名称',
     'Code' => 'PostCode',
+
+
+
+
+    
+
 ];

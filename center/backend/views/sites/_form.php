@@ -15,11 +15,11 @@ use backend\models\Lookup;
 
     <?php
     $form = ActiveForm::begin([
-        'id' => 'form-sites-add',
+        'id' => 'form-pro-add',
         'options' => ['class' => 'form form-horizontal'],
         'fieldConfig' => [
             'template' => "{label}\n<div class=\"formControls col-md-10 \">{input}  {error}</div> ",
-            'labelOptions' => ['class' => 'form-label col-md-1 text-right '], // label 的样式定义
+            'labelOptions' => ['class' => 'form-label col-md-1 text-right'], // label 的样式定义
         ],
     ]);
     ?>

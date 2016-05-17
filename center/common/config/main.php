@@ -25,7 +25,7 @@ return [
                 ],
                 'city' => [
                     'class' => 'yii\i18n\PhpMessageSource',
-                    //'basePath' => '/messages',
+                  //  'basePath' => '/messages',
                     'fileMap' => [
                         'power' => 'city.php',
                     ],

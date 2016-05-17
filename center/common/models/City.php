@@ -55,7 +55,7 @@ class City extends \yii\db\ActiveRecord
             'CODE' => Yii::t('city', 'Code'),
             'NAME' => Yii::t('city', 'Name'),
             'REGION_LEVEL' => Yii::t('app', 'Region  Level'),
-            'NAME_EN' => Yii::t('city', 'Name  En'),
+            'NAME_EN' => Yii::t('city', 'Name En'),
             'LONGITUDE' => Yii::t('app', 'Longitude'),
             'LATITUDE' => Yii::t('app', 'Latitude'),
             'IS_STANDARD' => Yii::t('app', 'Is  Standard'),
