@@ -1,7 +1,7 @@
 <?php
 use yii\helpers\Html;
 ?>
-  <?= Html::a(Html::encode($model->NAME), ['view', 'id' => $model->ID])  ?>
+  <?= Html::a(Html::encode($model->NAME_EN), ['view', 'id' => $model->ID])  ?>
 
 
 

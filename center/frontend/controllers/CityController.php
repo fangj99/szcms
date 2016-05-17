@@ -4,13 +4,12 @@ namespace frontend\controllers;
 
 use common\components\Controller;
 use common\models\City;
-use common\models\CitySearch;
 use common\models\SiteModel;
 use Yii;
+use yii\data\ActiveDataProvider;
 use yii\filters\VerbFilter;
 use yii\helpers;
 use yii\web\NotFoundHttpException;
-use  yii\data\ActiveDataProvider;
 
 /**
  * CityController implements the CRUD actions for City model.
@@ -35,19 +34,19 @@ class CityController extends Controller
      */
     public function actionIndex()
     {
-        $dataProvider  = new ActiveDataProvider([
-            'query'=>City::find()->where(['REGION_LEVEL'=>1]),
+        $dataProvider = new ActiveDataProvider([
+            'query' => City::find()->where(['REGION_LEVEL' => 1]),
             'pagination' => array('pageSize' => 50),
-        ] );
+        ]);
 
-        $siteProvider =new ActiveDataProvider([
-            'query'=>SiteModel::find()->where(['cityid'=>4]),
+        $siteProvider = new ActiveDataProvider([
+            'query' => SiteModel::find()->where(['cityid' => 4]),
             'pagination' => array('pageSize' => 50),
         ]);
 //        $searchModel = new CitySearch();
 //        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
         return $this->render('index', [
-        //    'searchModel' => $searchModel,
+            //    'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
             'siteProvider' => $siteProvider,
         ]);
@@ -61,13 +60,16 @@ class CityController extends Controller
     public function actionView($id)
     {
         $list = new City();
-        $pidd=$list->PARENT_ID;
+         $list = $list->getCitylist($id);
 
-        $list = $list->getCitylist($id);
-
+        $siteProvider = new ActiveDataProvider([
+            'query' => SiteModel::find()->where(['cityid' =>$id]),
+            'pagination' => array('pageSize' => 50),
+        ]);
         return $this->render('view', [
             'model' => $this->findModel($id),
             'list' => $list,
+             'siteProvider'=>$siteProvider,
         ]);
 
 

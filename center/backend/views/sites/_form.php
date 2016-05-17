@@ -45,7 +45,7 @@ use backend\models\Lookup;
     <?=
     $form->field($model, 'status', ['options' => ['class' => " row cl  "],
         'template' => "{label}\n<div class=\"formControls col-md-10 \">{input}  {error}</div> ",])
-        ->dropDownList(Lookup::items('PostStatus'), ['class' => 'form-control  '])
+        ->dropDownList(Lookup::items('ASiteStatus'), ['class' => 'form-control  '])
     ?>
 
 

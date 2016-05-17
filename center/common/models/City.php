@@ -52,10 +52,10 @@ class City extends \yii\db\ActiveRecord
         return [
             'ID' => Yii::t('app', 'ID'),
             'PARENT_ID' => Yii::t('app', 'Parent  ID'),
-            'CODE' => Yii::t('app', 'Code'),
-            'NAME' => Yii::t('app', 'Name'),
+            'CODE' => Yii::t('city', 'Code'),
+            'NAME' => Yii::t('city', 'Name'),
             'REGION_LEVEL' => Yii::t('app', 'Region  Level'),
-            'NAME_EN' => Yii::t('app', 'Name  En'),
+            'NAME_EN' => Yii::t('city', 'Name  En'),
             'LONGITUDE' => Yii::t('app', 'Longitude'),
             'LATITUDE' => Yii::t('app', 'Latitude'),
             'IS_STANDARD' => Yii::t('app', 'Is  Standard'),
@@ -78,7 +78,9 @@ class City extends \yii\db\ActiveRecord
 
     public  function  getCitylist($parent_id)
     {
-        $model=City::findAll(array('PARENT_ID'=>$parent_id));
+
+//        $model=City::findAll(array('PARENT_ID'=>$parent_id));
+        $model=City::findAll(array('REGION_LEVEL'=>1));
 //         var_dump($model->PARENT_ID);
 //        die('<hr>');
          return $model;

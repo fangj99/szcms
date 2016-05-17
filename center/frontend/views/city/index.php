@@ -1,6 +1,5 @@
 <?php
 
-use yii\helpers\Html;
 use yii\widgets\ListView;
 
 /* @var $this yii\web\View */
@@ -10,22 +9,13 @@ use yii\widgets\ListView;
 $this->title = Yii::t('app', 'Cities');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class=" pd-20 city-index">
+<div class="row   city-index">
 
-    <?= ListView::widget([
-        'dataProvider' => $dataProvider,
-        'itemOptions' => ['class' => 'item'],
-        'layout' => '{items}{pager}',
-        'itemView' => 'city_index',
-//        'itemView' => function ($model, $key, $index, $widget) {
-//            return Html::a(Html::encode($model->NAME), ['view', 'id' => $model->ID]);
-//        },
-    ]) ?>
-
+<div class="col-md-9">
 
     <div class="panel panel-default  panel-body  ">
         <?= ListView::widget([
-            'dataProvider' => $siteProvider ,
+            'dataProvider' => $siteProvider,
             'options' => ['id' => 'siteslist', 'tag' => 'ul'],
             'itemOptions' => ['tag' => 'li', 'class' => 'item col-md-6'],
             'itemView' => 'site_index',
@@ -33,5 +23,20 @@ $this->params['breadcrumbs'][] = $this->title;
 
         ]) ?>
     </div>
+</div>
 
+    <div class=" col-md-3">
+
+    <div class="panel panel-default  panel-body  ">
+        <?=
+        ListView::widget([
+            'dataProvider' => $dataProvider,
+            'itemOptions' => ['class' => 'item '],
+            'layout' => '{items}{pager}',
+            'itemView' => 'city_index',
+            'options' => ['class' => 'list-group', 'tag' => 'ul'],
+            'itemOptions' => ['tag' => 'li', 'class' => 'item  list-group-item '],])
+        ?>
+    </div>
+    </div>
 </div>

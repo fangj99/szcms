@@ -2,6 +2,7 @@
 
 namespace frontend\controllers;
 
+use common\models\City;
 use common\models\Link;
 use Yii;
 use common\components\Controller;
@@ -12,6 +13,7 @@ use yii\filters\VerbFilter;
 use  dosamigos\qrcode\QrCode;
 use  yii\filters\AccessControl;
 //use mdm\admin\components\AccessControl
+use yii\data\ActiveDataProvider;
 
 /**
  * SitesController implements the CRUD actions for SiteModel model.
@@ -39,11 +41,16 @@ class SitesController extends Controller
     {
         $searchModel = new SiteSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+        $hotdataProvider = new ActiveDataProvider([
+            'query' => SiteModel::find()->where(['status' => 1]),
+            'pagination' => array('pageSize' => 50),
+        ]);
 
 
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
+            'hotdataProvider'=>$hotdataProvider,
 
         ]);
     }
@@ -55,13 +62,23 @@ class SitesController extends Controller
      */
     public function actionView($id)
     {
+        $dataProvider = new ActiveDataProvider([
+            'query' => City::find()->where(['REGION_LEVEL' => 1]),
+            'pagination' => array('pageSize' => 50),
+        ]);
+
+
+
         $model=$this->findModel($id);
+
         $prev = $model->getPrev();
         $next = $model->getNext();
         return $this->render('view', [
             'model' => $this->findModel($id),
             'prev' => $prev,
             'next' => $next,
+            'dataProvider' => $dataProvider,
+
         ]);
     }
 

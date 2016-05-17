@@ -340,3 +340,4 @@ a.desc:after {
 .largebutton {  height:50px; width: 80px;}
 #adindex { height: 110px;}
 .fen2 th{width: 30%  }
+.sitelists li{overflow: hidden;    text-overflow: ellipsis;    white-space: nowrap;}
