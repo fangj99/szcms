@@ -82,8 +82,8 @@ use yii\helpers\Url;
 
                             <li><a _href="<?=   Url::to(['sites/create']);?>" href="javascript:void(0)"><i class="icon Hui-iconfont">&#xe6d7;</i>添加站点</a></li>
                             <li><a _href="<?=   Url::to(['sites/index']);?>" href="javascript:void(0)"><i class="icon Hui-iconfont">&#xe6d7;</i>站点管理</a></li>
-                            <li><a _href="<?=   Url::to(['siteurl/index']);?>" href="javascript:void(0)"><i class="icon Hui-iconfont">&#xe6d7;</i>语言管理</a></li>
-                            <li><a _href="<?=   Url::to(['social/index']);?>" href="javascript:void(0)"><i class="icon Hui-iconfont">&#xe6d7;</i>媒体管理</a></li>
+                            <li><a _href="<?=   Url::to(['siteurl/index']);?>" href="javascript:void(0)"><i class="icon Hui-iconfont">&#xe6d7;</i>网址管理</a></li>
+                            <li><a _href="<?=   Url::to(['social/index']);?>" href="javascript:void(0)"><i class="icon Hui-iconfont">&#xe6d7;</i>媒体帐号</a></li>
                         </ul>
                     </dd>
                 </dl>
