@@ -3,6 +3,7 @@
 namespace common\models;
 
 use Yii;
+use  yii\helpers\ArrayHelper;
 
 /**
  * This is the model class for table "site".
@@ -63,11 +64,16 @@ class SiteModel extends \yii\db\ActiveRecord
             'enurl' => Yii::t('app', 'Enurl'),
             'weibo' => Yii::t('app', 'Weibo'),
             'email' => Yii::t('app', 'Email'),
-            'cityid' => Yii::t('app', 'Cityid'),
+            'cityid' => '城市分类',
             'status' => Yii::t('app', 'Status'),
             'created_at' => Yii::t('app', 'Created At'),
             'updated_at' => Yii::t('app', 'Updated At'),
         ];
+    }
+    public function getCityList()
+    {
+        $model = City::findAll(array('REGION_LEVEL'=>1));
+        return ArrayHelper::map($model, 'ID', 'NAME');
     }
 
     /**
@@ -77,6 +83,7 @@ class SiteModel extends \yii\db\ActiveRecord
     {
         return $this->hasOne(City::className(), ['ID' => 'cityid']);
     }
+
 
     /**
      * @return \yii\db\ActiveQuery

@@ -36,8 +36,8 @@ class Link extends \yii\db\ActiveRecord
 			 
             [['title', 'url'], 'required'],
             [['status', 'created_at', 'updated_at'], 'integer'],
-            [['title'], 'string', 'max' => 20],
-            [['url'], 'string', 'max' => 30]
+            [['title'], 'string', 'max' => 30],
+            [['url'], 'string', 'max' => 60]
         ];
     }
 
@@ -53,6 +53,7 @@ class Link extends \yii\db\ActiveRecord
             'status' => '状态',
             'created_at' => '创建时间',
             'updated_at' => '修改时间',
+            'url' => Yii::t('app', 'Url'),
         ];
     }
   public static function getPendingLinkCount()

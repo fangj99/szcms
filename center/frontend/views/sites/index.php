@@ -78,7 +78,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => $this->params['sit
 
 </div>
 <div class="panel panel-default panel-body  frendlink  ">
-    <span class="default-view"><?= Yii::t('app', 'frend link') ?>：  </span>
+    <span class="default-view"><?= Yii::t('app', 'friend link') ?>：  </span>
     <?php $goods = \common\models\Link::find()->limit(8)->all();
     ?>
     <?php foreach ($goods as $k => $v): ?>

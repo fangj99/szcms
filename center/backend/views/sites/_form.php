@@ -26,6 +26,9 @@ use backend\models\Lookup;
 
     <?= $form->field($model, 'sitename', ['options' => ['class' => " row cl"]] )->textInput(['maxlength' => true]) ?>
 
+    <?php  //     $form->field($model, 'cityid')->textInput(['maxlength' => true]) ?>
+
+    <?= $form->field($model,'cityid')->dropDownList($model->getCityList(0)) ?>
     <?= $form->field($model, 'mechanism')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'province')->textInput(['maxlength' => true]) ?>

@@ -78,7 +78,6 @@ class City extends \yii\db\ActiveRecord
 
     public  function  getCitylist($parent_id)
     {
-
 //        $model=City::findAll(array('PARENT_ID'=>$parent_id));
         $model=City::findAll(array('REGION_LEVEL'=>1));
 //         var_dump($model->PARENT_ID);

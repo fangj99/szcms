@@ -134,4 +134,19 @@ class SitesController extends Controller
             throw new NotFoundHttpException('The requested page does not exist.');
         }
     }
+
+    public function actionSite( )
+    {
+        $model = new SiteModel();
+        $model = $model->getCityList();
+
+        if($typeid == 1){$aa="--请选择市--";}else if($typeid == 2 && $model){$aa="--请选择区--";}
+
+        echo Html::tag('option',$aa, ['value'=>'empty']) ;
+
+        foreach($model as $value=>$name)
+        {
+            echo Html::tag('option',Html::encode($name),array('value'=>$value));
+        }
+    }
 }

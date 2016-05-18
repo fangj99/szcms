@@ -280,7 +280,7 @@ return [
     'Site Models' => 'Site Models',
     'qrcode enurl' => 'Qrcode enurl',
     'qrcode cnurl' => 'Qrcode cnurl',
-    'frend link' => 'Frend link',
+    'friend link' => 'Friend link',
     'Search' => 'Search',
 
     

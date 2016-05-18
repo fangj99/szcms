@@ -45,8 +45,8 @@ class Social extends \yii\db\ActiveRecord
         return [
             'id' => Yii::t('app', 'ID'),
             'sid' => Yii::t('app', 'sid'),
-            'language' => Yii::t('app', 'Language'),
-            'url' => Yii::t('app', 'Url'),
+            'language' =>'帐号',
+            'url' => Yii::t('app', '链接'),
             'status' => Yii::t('app', 'Status'),
             'created_at' => Yii::t('app', 'Created At'),
             'updated_at' => Yii::t('app', 'Updated At'),

@@ -278,6 +278,8 @@ return [
     'Create Site Model' => '添加站点',
     'Site Models' => '站点管理',
     'Site Models' => '站点管理',
+    'Siteurls' => '站点',
+    'socialid' => '账号',
 
     'error occurred'=>'你的权限不足',
     'contact servermaster'=>'请联系网站管理员授权',

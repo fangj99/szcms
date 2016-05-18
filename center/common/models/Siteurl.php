@@ -48,7 +48,7 @@ class Siteurl extends \yii\db\ActiveRecord
             'id' => Yii::t('app', 'ID'),
             'wid' => Yii::t('app', 'Wid'),
             'language' => Yii::t('app', 'Language'),
-            'url' => Yii::t('app', 'Url'),
+            'url' =>'链接',
             'status' => Yii::t('app', 'Status'),
             'created_at' => Yii::t('app', 'Created At'),
             'updated_at' => Yii::t('app', 'Updated At'),

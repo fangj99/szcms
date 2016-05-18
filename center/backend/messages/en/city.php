@@ -11,6 +11,7 @@ return [
     'Name' => 'City Name',
     'Name En' => 'English name',
     'Code' => 'PostCode',
+    'socialid' => '帐号',
 
 
 

@@ -63,9 +63,6 @@ class ProController extends Controller
         $channelModel= new Channel();
         $chlist=$channelModel::find()->all();
 
-        
-        
-
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
