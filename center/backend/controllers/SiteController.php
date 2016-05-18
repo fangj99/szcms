@@ -39,21 +39,21 @@ use yii\filters\AccessControl;
             'access' => [
                 'class' => AccessControl::className(),
                 'rules' => [
-                    [ 
-			 'actions' => ['login', 'error'],
+                    [
+		         	 'actions' => ['login',  'error'],
                         'allow' => true,
                     ],
-                    [  
-                       'actions' => ['logout', 'index','change-password','signup'],
+                    [
+                       'actions' => ['index','change-password','signup','logout'],
                         'allow' => true,
                         'roles' => ['@'],
-                    ],                                            
+                    ],
 							],
             ],
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
-                     'logout' => ['post'],
+                     'logout' => ['post','get'],
                 ],
             ],
         ];
