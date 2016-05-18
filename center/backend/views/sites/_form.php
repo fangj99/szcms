@@ -37,11 +37,11 @@ use backend\models\Lookup;
 
     <?= $form->field($model, 'discription')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'cnurl')->textInput(['maxlength' => true]) ?>
+    <?php  // $form->field($model, 'cnurl')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'enurl')->textInput(['maxlength' => true]) ?>
+    <?php // $form->field($model, 'enurl')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'weibo')->textInput(['maxlength' => true]) ?>
+    <?php // $form->field($model, 'weibo')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'email')->textInput(['maxlength' => true]) ?>
 
