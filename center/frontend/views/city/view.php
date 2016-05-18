@@ -6,8 +6,9 @@ use  yii\widgets\ListView;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\City */
-
-$this->title = $model->NAME_EN;
+$this->registerJsFile('/css/jquery-1.11.0.js');
+$this->registerJsFile('/css/trips-ad-plugin.js');
+$this->title =  $model->NAME_EN;
 $this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Cities'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>

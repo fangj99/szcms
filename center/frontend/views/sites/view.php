@@ -11,7 +11,7 @@ $this->registerJsFile('/css/jquery-1.11.0.js');
 $this->registerJsFile('/css/trips-ad-plugin.js');
 
 //$this->registerCssFile('/css/trips-ad-plugin.css');
-$this->title = $model->sitename;
+$this->title =  $model->sitename.$model->city.$model->province;
 $this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Site Models'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
